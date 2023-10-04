@@ -65,6 +65,10 @@
     background-color: #cee1ff; /* 深蓝色背景 */
     width: 205px;
 }
+
+
+
+
 .box .content {
     float: left;
     margin-top: 60px;
@@ -194,9 +198,35 @@ footer p{
 @media (max-width: 600px) {
     .box {
         flex-direction: column; /* 在小屏幕上切换为垂直布局 */
+        width: 500px;
     }
 
     .right {
         display: none; /* 隐藏右侧边栏 */
+    }
+    /* 设置导航链接的样式 */
+    .box .sidebar {
+        float: left;
+        margin-top: 60px;
+        width: 500px;
+    }
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap; 
+        /* 允许导航链接在小屏幕上换行 */
+
+    }
+
+    .sidebar li {
+        width: 200px;
+        /* flex: 1;  */
+        /* 将导航链接均分为两行 */
+        width: 30%; 
+        /* 设置每行的宽度为50% */
+    }
+    /* 鼠标悬停时的样式 */
+    .sidebar a:hover {
+        background-color: #cee1ff; /* 深蓝色背景 */
+        width: 150px;
     }
 }
