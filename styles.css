@@ -84,6 +84,11 @@
     margin: 10px 0; /* 上下边距 */
     background-color: #fff; /* 背景颜色 */
 }
+.box .content p::selection {
+    color: green; /* 文字颜色 */
+    margin: 10px 0; /* 上下边距 */
+    background-color: #d8d9db; /* 背景颜色 */
+}
 /* 分隔线样式 */
 .box .content .divider {
     border: 2px solid #ccc; /* 灰色边框 */
