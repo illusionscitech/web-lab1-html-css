@@ -32,6 +32,7 @@
     /* height: 500px; */
     /* background-color: pink; */
     margin: 0 auto;
+    /* flex-direction: column; */
     
     /* margin-top: 80px; 上边距增加到 80px */
 }
@@ -129,10 +130,12 @@
     width: 150px;
 }
 .box .right {
-    /* position: fixed;  */
+    position: sticky;  /* 设置右侧元素的固定显示 */
     float: right;
     margin-top: 60px;
     width: 170px;
+    top: 60px;   /* 设置右侧元素的固定显示 */
+    align-self: flex-start; /* 让右侧元素在顶部停靠 */
     
 }
 /* 上框样式 */
@@ -186,24 +189,6 @@ footer p{
     color: #ccc;
     background-color: #fff;
 }
-
-/* .sidebar ul {
-    list-style: none;
-} */
-
-/* .sidebar a {
-    text-decoration: none;
-    color: #507299;
-    /* display: block; */
-    /* margin-bottom: 10px;
-} */ 
-
-/* .content {
-    /* margin-top: 40px; */
-    /* margin-top: 80px; 根据导航栏高度调整 */
-    /* margin-left: 20%; 为侧边导航栏留出空间 */
-    /* padding: 20px; */
-/* } */ 
 
 /* 媒体查询，当屏幕宽度小于600px时应用下面的样式 */
 @media (max-width: 600px) {
