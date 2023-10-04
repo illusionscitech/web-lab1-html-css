@@ -1,5 +1,8 @@
 # web-lab1-html-css
 练习web开发，使用html和css来完成如下效果
+![20231004_162909](https://github.com/illusionscitech/web-lab1-html-css/assets/60685266/454e13ab-122d-4bb6-8ef3-3c666ddc6ee5)
+
+
 ![Task 1  Ris8](https://github.com/illusionscitech/web-lab1-html-css/assets/60685266/a5b337c1-2035-49aa-b15a-a4ac7308c042)
 ![Task 1  Ris7](https://github.com/illusionscitech/web-lab1-html-css/assets/60685266/0db23aa7-32dd-4444-ab87-696dc104089a)
 ![Task 1  Ris6](https://github.com/illusionscitech/web-lab1-html-css/assets/60685266/602f19df-f4df-4387-adbd-294ab5e1e9bd)
